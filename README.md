@@ -46,13 +46,13 @@ This engine provides following helpers for use in controllers:
 
 `github_organization_access?(name)`
 
-`github_team_access?(team_id)`
+`github_team_access?(team_id)` (requires 'user' scope)
 
 `github_public_organization_authenticate!(name)`
 
 `github_organization_authenticate!(name)`
 
-`github_team_authenticate!(team_id)`
+`github_team_authenticate!(team_id)` (requires 'user' scope)
 
 Also, `github_user`, `github_public_organization_access?`,
 `github_organization_access?`, and `github_team_access?` are available as
